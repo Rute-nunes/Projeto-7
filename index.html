@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Usuário</title>
+    </head>
+    <header>
+        <h1>Cadastro de Usuário</h1>
+        <nav>
+          <ul>
+            <li><a href="#Página inicial">Página inicial</a></li>
+            <li><a href="#Sobre mim">Sobre mim</a> </li>
+            <li><a href="#Meus projetos">Meus projetos</a></li>
+            <li><a href="#Contato">Contato</a></li>
+          </ul>
+        </nav>
+    </header>
+    <body>
+        <h2>Formulário de Cadastro</h2>
+        <form action="arquivo/texto">
+            <label for ="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="Email">Email:</label><br>
+            <input type="email" id="Email" name="Email" required><br>
+
+            <label for="Senha">Senha:</label><br>
+            <input type="password" id="Senha" name="Senha" required><br>
+
+            <label for="Gênero">Gênero:</label><br>
+            <select id="Gênero">
+                <option value="nothing">-</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select><br><br>
+            <label>Interesses</label><br>
+            <input type="checkbox" id="Programação"name="Programação"><label for="Programação"><b>Programação</b></label><br>
+            <input type="checkbox"id="Desigh"name="Desigh"><label for="Desigh"><b>Desigh</b></label><br>
+            <input type="checkbox"id="Computação"name="Computação"><label for="Computação"><b>Computação</b></label><br>
+            <input type="checkbox"id="Medicina Veterinária"name="Medicina Veternirária"><label for="Medicina Veterinária"><b>Medicina Veterinária</b></label><br>
+            <input type="checkbox"id="Artes"name="Artes"><label for="Artes"><b>Artes</b></label><br>
+            <input type="checkbox"id="Engenharia civil"><label for="Engenharia civil"><b>Engenharia civil</b></label><br><br>
+
+
+
+
+            <label for="mensagem">Biografia:</label><br>
+            <textarea id="Biografia" name="Biografia" rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" id="Enviar">
+
+         <p>©2025 Meu Site Pessoal de Cadastro </p>
+        
+        </form>
+
+    </body>
+</html>
